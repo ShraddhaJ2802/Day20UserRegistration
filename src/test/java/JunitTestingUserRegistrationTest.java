@@ -29,4 +29,5 @@ public class JunitTestingUserRegistrationTest {
         JunitTestingUserRegistration password = new JunitTestingUserRegistration();
         assertEquals("Shraddha@2802", password.password("Shraddha@2802"));
     }
+    String x =  "jadhavshradddha5@gmail.com";
 }

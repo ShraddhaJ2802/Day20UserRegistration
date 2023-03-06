@@ -2,6 +2,15 @@ import java.util.regex.Pattern;
 
 public class JunitTestingUserRegistration {
 
+    String nameInput;
+
+    public JunitTestingUserRegistration(String nameInput) {
+        this.nameInput = nameInput;
+    }
+
+    public JunitTestingUserRegistration() {
+    }
+
     public String Name(String nameInput){
 
         if(Pattern.matches("^[A-Z][a-z]{2,}$",nameInput)){
