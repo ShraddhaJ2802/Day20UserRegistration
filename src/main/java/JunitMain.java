@@ -23,7 +23,8 @@ public class JunitMain {
         String password  = sc.nextLine();
 
         System.out.println("User Info : "+
-                "\nName : "+obj.Name(firstName) +" " +obj.Name(lastName)+
+                        "\nName : "+obj.Name() +" " +obj.Name()+
+            //    "\nName : "+obj.Name(firstName) +" " +obj.Name(lastName)+
                 "\nEmail : "+obj.email(email)+
                 "\nPhone : "+obj.phone(phone)+
                 "\nPassword : "+obj.password(password));
